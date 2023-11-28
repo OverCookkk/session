@@ -4,8 +4,8 @@ import了memory，执行memory.go里面的init()函数，会进行注册储存�
 
 ```go
 import (
-	"github.com/astaxie/session"
-	_ "github.com/astaxie/session/providers/memory"
+	"session"
+	_ "session/providers/memory"
 )
 
 var globalSessions *session.Manager
